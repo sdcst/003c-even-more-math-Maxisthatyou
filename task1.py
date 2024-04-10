@@ -18,3 +18,10 @@ Enter actual : 14
 The percent difference is 16.67%
 ```
 '''
+x = float(input("Please enter your expected number> "))
+y = float(input("Please enter your actual value> "))
+
+f = (( y - x ) / x) * 100
+f = round(f, 2)
+
+print(f"The percentage difference is {f}%")
